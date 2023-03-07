@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
 import Image from 'next/image';
 
@@ -18,8 +19,11 @@ export const Header = () => {
         <Image src="/nemeos.svg" alt="Nemeos" width={170} height={24} priority />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-        <Text style={{ fontSize: 24, marginRight: 16 }}>Products</Text>
-        <Text style={{ fontSize: 24 }}>Resources</Text>
+        <Text style={{ fontSize: 16, marginRight: 16 }}>Products</Text>
+        <Text style={{ fontSize: 16, marginRight: 16 }}>Resources</Text>
+        <Button>
+          <Text style={{ fontSize: 16, color: '#fff' }}>Contact Us</Text>
+        </Button>
       </div>
     </div>
   );
