@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
-import { Header } from './sections';
+import { Header, Hero } from './sections';
 
 import { Poppins } from 'next/font/google';
 
@@ -20,6 +20,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${poppins.className}`}>
         <Header />
+        <Hero />
       </main>
     </>
   );

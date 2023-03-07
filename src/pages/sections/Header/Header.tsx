@@ -11,7 +11,7 @@ export const Header = () => {
         width: '100%',
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: 16,
+        padding: '24px 180px',
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
