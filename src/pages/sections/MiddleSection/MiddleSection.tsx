@@ -45,6 +45,7 @@ export const MiddleSection = () => {
           paddingRight: 100,
           background: 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) -5.39%, rgba(244, 244, 244, 0.2) 108.05%)',
           boxShadow: '0px 0px 32px #040428',
+          backdropFilter: 'blur(23.724px)',
         }}
       >
         <Text style={{ fontSize: 24, fontWeight: 700, maxWidth: 550, alignSelf: 'center', marginBottom: 34 }}>
