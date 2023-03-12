@@ -4,13 +4,6 @@ import Image from 'next/image';
 export const Hero = () => {
   return (
     <div style={{ display: 'flex', width: '100%' }}>
-      <Image
-        style={{ position: 'absolute', left: 0, bottom: 0 }}
-        src="/buildings.svg"
-        alt="Nemeos"
-        width={1512}
-        height={537}
-      />
       <div
         style={{
           paddingLeft: '15%',

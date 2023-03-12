@@ -7,6 +7,7 @@ import { Footer } from './sections/Footer';
 import { MiddleSection } from './sections/MiddleSection';
 import { Infrastructure } from './sections/Infrastructure';
 import { RoadMap } from './sections/Roadmap';
+import Image from 'next/image';
 
 const poppins = Poppins({
   weight: '400',
@@ -23,6 +24,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${poppins.className}`}>
+        <Image
+          style={{ position: 'absolute', left: 0, top: 130, zIndex: -1 }}
+          src="/buildings.svg"
+          alt="Nemeos"
+          width={1512}
+          height={1288}
+        />
+        <Image
+          style={{ position: 'absolute', left: 0, top: 1320, zIndex: -1 }}
+          src="/squares_background.svg"
+          alt="Nemeos"
+          width={1512}
+          height={1572}
+        />
         <Header />
         <Hero />
         <KeyPillars />
