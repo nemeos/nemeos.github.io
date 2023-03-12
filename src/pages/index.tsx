@@ -4,6 +4,9 @@ import { Header, Hero, KeyPillars } from './sections';
 
 import { Poppins } from 'next/font/google';
 import { Footer } from './sections/Footer';
+import { MiddleSection } from './sections/MiddleSection';
+import { Infrastructure } from './sections/Infrastructure';
+import { RoadMap } from './sections/Roadmap';
 
 const poppins = Poppins({
   weight: '400',
@@ -23,6 +26,9 @@ export default function Home() {
         <Header />
         <Hero />
         <KeyPillars />
+        <MiddleSection />
+        <Infrastructure />
+        <RoadMap />
         <Footer />
       </main>
     </>
