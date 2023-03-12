@@ -2,9 +2,10 @@ import React from 'react';
 
 interface Props {
   children: React.ReactNode;
+  width?: number;
 }
 
-export const Button = ({ children }: Props) => {
+export const Button = ({ children, width }: Props) => {
   return (
     <div
       style={{
@@ -17,6 +18,7 @@ export const Button = ({ children }: Props) => {
         padding: 16,
         boxShadow: '0px 0px 40px rgba(4, 4, 40, 0.56)',
         background: 'linear-gradient(263.73deg, #00F0FF 4.64%, #7F18E7 107.69%)',
+        ...{ width },
       }}
     >
       {children}

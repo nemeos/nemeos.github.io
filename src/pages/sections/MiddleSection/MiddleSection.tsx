@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
 
 export const MiddleSection = () => {
@@ -5,6 +6,7 @@ export const MiddleSection = () => {
     <div
       style={{
         display: 'flex',
+        flexDirection: 'column',
         width: '100%',
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
@@ -27,6 +29,28 @@ export const MiddleSection = () => {
           The financing is guaranteed by the acquired NFT, but the user can still use the asset as long as he pays back
           the credit.
         </Text>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          maxWidth: 850,
+          borderRadius: 32,
+          marginTop: 160,
+          paddingTop: 42,
+          paddingBottom: 42,
+          paddingLeft: 100,
+          paddingRight: 100,
+          background: 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) -5.39%, rgba(244, 244, 244, 0.2) 108.05%)',
+          boxShadow: '0px 0px 32px #040428',
+        }}
+      >
+        <Text style={{ fontSize: 24, fontWeight: 700, maxWidth: 550, alignSelf: 'center', marginBottom: 34 }}>
+          You’re a web3 project, and you’re interested in integrating our solution ?
+        </Text>
+        <Button width={230}>Get in touch</Button>
       </div>
     </div>
   );
