@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css';
 import { Header, Hero, KeyPillars } from './sections';
 
 import { Poppins } from 'next/font/google';
+import { Footer } from './sections/Footer';
 
 const poppins = Poppins({
   weight: '400',
@@ -22,6 +23,7 @@ export default function Home() {
         <Header />
         <Hero />
         <KeyPillars />
+        <Footer />
       </main>
     </>
   );
