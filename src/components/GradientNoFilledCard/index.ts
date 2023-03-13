@@ -1,0 +1,1 @@
+export { GradientNoFilledCard } from './GradientNoFilledCard';
