@@ -1,4 +1,5 @@
 import { Button } from '@/components/Button';
+import { GradientNoFilledCard } from '@/components/GradientNoFilledCard';
 import { Text } from '@/components/Text';
 
 export const MiddleSection = () => {
@@ -29,6 +30,17 @@ export const MiddleSection = () => {
           The financing is guaranteed by the acquired NFT, but the user can still use the asset as long as he pays back
           the credit.
         </Text>
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'row', width: '100%', marginTop: 50 }}>
+        <GradientNoFilledCard style={{ padding: 30, width: 300 }}>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Users don't have to pay full price upfront`}</Text>
+        </GradientNoFilledCard>
+        <GradientNoFilledCard style={{ padding: 30, width: 300 }}>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Easy integration and smooth customer journey`}</Text>
+        </GradientNoFilledCard>
+        <GradientNoFilledCard style={{ padding: 30, width: 300 }}>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Boost your project adoption and customer retention`}</Text>
+        </GradientNoFilledCard>
       </div>
       <div
         style={{

@@ -1,6 +1,5 @@
 import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
-import Image from 'next/image';
 
 export const Hero = () => {
   return (

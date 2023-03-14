@@ -14,8 +14,6 @@ export const GradientNoFilledCard = ({ children, style }: Props) => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 424,
-        height: 424,
         ...style,
       }}
     >
