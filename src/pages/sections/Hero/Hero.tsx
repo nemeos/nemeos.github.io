@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
 import Image from 'next/image';
 
@@ -15,10 +16,11 @@ export const Hero = () => {
           <Text style={{ fontSize: 48, marginBottom: 40, fontWeight: 700, color: 'white' }}>
             Building new web3 economies
           </Text>
-          <Text style={{ fontSize: 24, color: '#fff' }}>
+          <Text style={{ fontSize: 24, color: '#fff', marginBottom: 80 }}>
             We contribute to the development of new inclusive digital economies by building the leading on-chain credit
             infrastructure for web3 assets.
           </Text>
+          <Button width={230}>Get in touch</Button>
         </div>
       </div>
     </div>
