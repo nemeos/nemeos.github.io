@@ -1,9 +1,19 @@
+import { useState } from 'react';
+
 interface Props {
   children: React.ReactNode;
   style?: React.CSSProperties;
+  contentWhenHovered?: React.ReactNode;
 }
 
-export const GradientNoFilledCard = ({ children, style }: Props) => {
+export const GradientNoFilledCard = ({ children, style, contentWhenHovered }: Props) => {
+  const [isHovering, setIsHovering] = useState(false);
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
   return (
     <div
       style={{
@@ -16,14 +26,10 @@ export const GradientNoFilledCard = ({ children, style }: Props) => {
         justifyContent: 'center',
         ...style,
       }}
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
     >
-      <div
-        style={{
-          maxWidth: 280,
-        }}
-      >
-        {children}
-      </div>
+      {isHovering && !!contentWhenHovered ? contentWhenHovered : children}
     </div>
   );
 };
