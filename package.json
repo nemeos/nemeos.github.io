@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "yarn build && yarn export && yarn gh-pages -d out -t true"
   },
   "dependencies": {
     "@types/node": "18.14.6",
@@ -23,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.4"
   }
 }
