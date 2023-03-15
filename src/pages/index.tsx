@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
-import { Header, Hero, KeyPillars } from './sections';
+import { Header, Hero, KeyPillars } from '../sections';
 
 import { Poppins } from 'next/font/google';
-import { Footer } from './sections/Footer';
-import { MiddleSection } from './sections/MiddleSection';
-import { Infrastructure } from './sections/Infrastructure';
-import { RoadMap } from './sections/Roadmap';
+import { Footer } from '../sections/Footer';
+import { MiddleSection } from '../sections/MiddleSection';
+import { Infrastructure } from '../sections/Infrastructure';
+import { RoadMap } from '../sections/Roadmap';
 import Image from 'next/image';
 
 const poppins = Poppins({
