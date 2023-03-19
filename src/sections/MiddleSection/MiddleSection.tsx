@@ -2,6 +2,7 @@ import { Button } from '@/components/Button';
 import { GradientNoFilledCard } from '@/components/GradientNoFilledCard';
 import { Text } from '@/components/Text';
 import Link from 'next/link';
+import style from './Middle.module.css';
 
 export const MiddleSection = () => {
   return (
@@ -14,10 +15,10 @@ export const MiddleSection = () => {
         alignItems: 'flex-start',
         paddingTop: 50,
         paddingBottom: 50,
-        paddingLeft: 320,
+        paddingLeft: '15%',
       }}
     >
-      <div style={{ position: 'absolute', left: 700, width: 528 }}>
+      <div className={style.catchyTitle}>
         <Text style={{ lineHeight: 1.1, fontWeight: 700, fontSize: 104, color: 'rgba(0, 240, 255, 1)' }}>
           Buy now, pay later for NFTs
         </Text>

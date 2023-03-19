@@ -1,0 +1,11 @@
+.catchyTitle {
+    position: absolute; 
+    left: 50%; 
+    width: 528px;
+}
+
+@media(max-width: 900px) {
+    .catchyTitle {
+        display: none;
+    }
+}
