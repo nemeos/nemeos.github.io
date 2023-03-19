@@ -25,14 +25,20 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${poppins.className}`}>
         <Image
-          style={{ position: 'absolute', left: 0, top: 130, zIndex: -1 }}
+          style={{
+            position: 'absolute',
+            left: 0,
+            top: 130,
+            zIndex: -1,
+            width: '100%',
+          }}
           src="/buildings.svg"
           alt="Nemeos"
           width={1512}
           height={1288}
         />
         <Image
-          style={{ position: 'absolute', left: 0, top: 1320, zIndex: -2 }}
+          style={{ position: 'absolute', left: 0, top: 1320, zIndex: -2, width: '100%' }}
           src="/squares_background.svg"
           alt="Nemeos"
           width={1512}
