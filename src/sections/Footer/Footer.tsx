@@ -1,5 +1,6 @@
 import { Text } from '@/components/Text';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Footer = () => {
   return (
@@ -18,28 +19,40 @@ export const Footer = () => {
         <Image src="/nemeos.svg" alt="Nemeos" width={170} height={24} priority />
       </div>
       <div style={{ display: 'flex', width: '100%', justifyContent: 'center', marginTop: 50, marginBottom: 50 }}>
-        <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Home</Text>
-        <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>About</Text>
-        <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Docs</Text>
-        <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Partners</Text>
+        <Link href="/" passHref>
+          <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Home</Text>
+        </Link>
+        <Link href="/" passHref>
+          <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>About</Text>
+        </Link>
+        <Link href="/" passHref>
+          <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Docs</Text>
+        </Link>
+        <Link href="/" passHref>
+          <Text style={{ fontWeight: 700, marginRight: 10, marginLeft: 10 }}>Partners</Text>
+        </Link>
       </div>
       <div style={{ display: 'flex', width: '100%', justifyContent: 'center', marginBottom: 50 }}>
-        <Image
-          style={{ marginRight: 10, marginLeft: 10 }}
-          src="/github.svg"
-          alt="Nemeos"
-          width={30}
-          height={30}
-          priority
-        />
-        <Image
-          style={{ marginRight: 10, marginLeft: 10 }}
-          src="/linkedin.svg"
-          alt="Nemeos"
-          width={30}
-          height={30}
-          priority
-        />
+        <Link href="https://github.com/nemeos" passHref>
+          <Image
+            style={{ marginRight: 10, marginLeft: 10 }}
+            src="/github.svg"
+            alt="Nemeos"
+            width={30}
+            height={30}
+            priority
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/company/nemeos-finance/about/" passHref>
+          <Image
+            style={{ marginRight: 10, marginLeft: 10 }}
+            src="/linkedin.svg"
+            alt="Nemeos"
+            width={30}
+            height={30}
+            priority
+          />
+        </Link>
       </div>
       <Text style={{ display: 'flex', width: '100%', justifyContent: 'center' }}>©️ Copyright 2023 Nemeos</Text>
     </div>

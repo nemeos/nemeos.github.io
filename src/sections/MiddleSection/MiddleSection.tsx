@@ -1,6 +1,7 @@
 import { Button } from '@/components/Button';
 import { GradientNoFilledCard } from '@/components/GradientNoFilledCard';
 import { Text } from '@/components/Text';
+import Link from 'next/link';
 
 export const MiddleSection = () => {
   return (
@@ -63,7 +64,9 @@ export const MiddleSection = () => {
         <Text style={{ fontSize: 24, fontWeight: 700, maxWidth: 550, alignSelf: 'center', marginBottom: 34 }}>
           You’re a web3 project, and you’re interested in integrating our solution ?
         </Text>
-        <Button width={230}>Get in touch</Button>
+        <Link href="mailto:francois@nemeos.finance" passHref>
+          <Button width={230}>Get in touch</Button>
+        </Link>
       </div>
     </div>
   );

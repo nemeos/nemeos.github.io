@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
+import Link from 'next/link';
 
 export const Hero = () => {
   return (
@@ -19,7 +20,9 @@ export const Hero = () => {
             We contribute to the development of new inclusive digital economies by building the leading on-chain credit
             infrastructure for web3 assets.
           </Text>
-          <Button width={230}>Get in touch</Button>
+          <Link href="mailto:francois@nemeos.finance" passHref>
+            <Button width={230}>Get in touch</Button>
+          </Link>
         </div>
       </div>
     </div>
