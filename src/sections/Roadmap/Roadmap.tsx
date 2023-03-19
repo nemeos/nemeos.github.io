@@ -3,12 +3,29 @@ import { Text } from '@/components/Text';
 
 export const RoadMap = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: 30,
+      }}
+    >
       <Text style={{ fontWeight: 700, fontSize: 40 }}>Our Road map</Text>
       <Text style={{ fontWeight: 700, color: 'rgba(0, 240, 255, 1)', fontSize: 24 }}>
         Product should be live in Q3.
       </Text>
-      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: 100 }}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          paddingTop: 100,
+        }}
+      >
         <Card>
           <Text style={{ fontWeight: 700, fontSize: 16, color: '#000066', marginBottom: 8 }}>Q4 2022</Text>
           <Text style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>Structuration</Text>
