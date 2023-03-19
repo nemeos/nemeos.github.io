@@ -12,7 +12,7 @@ export const Hero = () => {
           zIndex: 2,
         }}
       >
-        <div style={{ display: 'flex', flexDirection: 'column', width: 500 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 500 }}>
           <Text style={{ fontSize: 48, marginBottom: 40, fontWeight: 700, color: 'white' }}>
             Building new web3 economies
           </Text>

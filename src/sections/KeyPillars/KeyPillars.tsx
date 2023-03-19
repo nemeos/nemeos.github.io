@@ -1,39 +1,18 @@
 import { Text } from '@/components/Text';
 import Image from 'next/image';
+import style from './KeyPillars.module.css';
 
 export const KeyPillars = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        width: '100%',
-        paddingLeft: '15%',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        zIndex: 2,
-        marginTop: 300,
-        marginBottom: 100,
-      }}
-    >
+    <div className={style.container}>
       <Text style={{ fontSize: 40, fontWeight: 700 }}>Key pillars</Text>
-      <div style={{ maxWidth: 900, marginTop: 40 }}>
+      <div style={{ maxWidth: 900, marginTop: 40, paddingRight: 40 }}>
         <Text>
           Our objective is to allow anyone to operate, build or integrate real-life financial services for web3
           ecosystem. For example, a user can use our solution to buy a NFT with credit.
         </Text>
       </div>
-      <div
-        style={{
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexDirection: 'row',
-          marginTop: 60,
-          paddingRight: 80,
-        }}
-      >
+      <div className={style.listContainer}>
         <div style={{ display: 'flex', flexDirection: 'column', width: 300 }}>
           <Image style={{ marginBottom: 32 }} src="/hand-coin.svg" alt="Nemeos" width={80} height={80} priority />
           <Text style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Key On-chain credit infrastructure</Text>
