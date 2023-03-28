@@ -10,16 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 14
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
 
-    - name: Install dependencies
-      run: yarn install
+      - name: Install dependencies
+        run: yarn install
 
-    - name: Deploy app
-      run: yarn deploy
+      - name: Configure Git user
+        run: |
+          git config --global user.name "Nemeos BOT"
+          git config --global user.email "githubbot@nemeos.finance"
+
+      - name: Deploy app
+        env:
+          GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+        run: |
+          git remote set-url origin https://x-access-token:${GH_ACCESS_TOKEN}@github.com/nemeos/nemeos.github.io.git
+          yarn deploy
