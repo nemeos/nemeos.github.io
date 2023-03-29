@@ -13,17 +13,17 @@ export const KeyPillars = () => {
         </Text>
       </div>
       <div className={style.listContainer}>
-        <div style={{ display: 'flex', flexDirection: 'column', width: 300 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: 300, marginTop: 60 }}>
           <Image style={{ marginBottom: 32 }} src="/hand-coin.svg" alt="Nemeos" width={80} height={80} priority />
           <Text style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Key On-chain credit infrastructure</Text>
           <Text>Credit layer allowing financing, asset scoring and collateral management.</Text>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', width: 300 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: 300, marginTop: 60 }}>
           <Image style={{ marginBottom: 32 }} src="/coin-bundle.svg" alt="Nemeos" width={80} height={80} priority />
           <Text style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Credit products fabric</Text>
           <Text>Creation of any financing products (BNPL, amortizing loan, leasing, etc.) or rental services.</Text>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', width: 300 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: 300, marginTop: 60 }}>
           <Image style={{ marginBottom: 32 }} src="/wallet-check.svg" alt="Nemeos" width={80} height={80} priority />
           <Text style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Support web3 adoption</Text>
           <Text>Go beyond existing DeFi protocols, and bring financial services with real-life use cases to web3.</Text>

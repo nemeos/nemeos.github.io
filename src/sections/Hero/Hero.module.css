@@ -1,0 +1,12 @@
+.hero_main_text {
+    font-size: 48px; 
+    margin-bottom: 40px; 
+    font-weight: 700;
+    color: 'white';
+}
+
+@media(max-width: 400px) {
+    .hero_main_text {
+        font-size: 40px;
+    }
+}
