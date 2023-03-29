@@ -22,7 +22,7 @@ export const MiddleSection = () => {
           Buy now, pay later for NFTs
         </Text>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column', marginTop: 100, width: 230, marginLeft: '15%' }}>
+      <div className={style.first_product_container}>
         <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 16 }}>Our first product</Text>
         <Text style={{ marginBottom: 16 }}>
           With our solution, a user will be able to buy an NFT by paying it in 3x.
