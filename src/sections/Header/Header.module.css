@@ -13,3 +13,26 @@
         padding: 24px;
     }
 }
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 800px) {
+    .logo_container {
+        margin-bottom: 16px;
+    }
+}
+
+.header_element_text {
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+@media (max-width: 400px) {
+    .header_element_text {
+        font-size: 12px;
+    }
+}
