@@ -21,7 +21,7 @@ export const Header = () => {
         </Link>
         <Link href="mailto:francois@nemeos.finance" passHref>
           <Button>
-            <Text className={styles.header_element_text} style={{ color: '#fff', marginRight: 0 }}>
+            <Text className={styles.header_element_text} style={{ color: '#fff', marginLeft: 0, marginRight: 0 }}>
               Contact Us
             </Text>
           </Button>
