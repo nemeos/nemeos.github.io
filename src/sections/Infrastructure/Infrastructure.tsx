@@ -26,7 +26,17 @@ export const Infrastructure = () => {
             />
           }
         >
-          <Text style={{ fontWeight: 700, fontSize: 32 }}>Market value assessment</Text>
+          <div
+            style={{
+              paddingLeft: 16,
+              paddingRight: 16,
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Market value assessment</Text>
+          </div>
         </GradientNoFilledCard>
         <GradientNoFilledCard
           contentWhenHovered={
@@ -36,7 +46,17 @@ export const Infrastructure = () => {
             />
           }
         >
-          <Text style={{ fontWeight: 700, fontSize: 32 }}>Collateral management</Text>
+          <div
+            style={{
+              paddingLeft: 16,
+              paddingRight: 16,
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Collateral management</Text>
+          </div>
         </GradientNoFilledCard>
         <GradientNoFilledCard
           contentWhenHovered={
@@ -46,7 +66,7 @@ export const Infrastructure = () => {
             />
           }
         >
-          <Text style={{ fontWeight: 700, fontSize: 32 }}>Credit products fabric</Text>
+          <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Credit products fabric</Text>
         </GradientNoFilledCard>
         <GradientNoFilledCard
           contentWhenHovered={
@@ -56,7 +76,17 @@ export const Infrastructure = () => {
             />
           }
         >
-          <Text style={{ fontWeight: 700, fontSize: 32 }}>LP yield generation</Text>
+          <div
+            style={{
+              paddingLeft: 16,
+              paddingRight: 16,
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>LP yield generation</Text>
+          </div>
         </GradientNoFilledCard>
       </div>
     </div>
