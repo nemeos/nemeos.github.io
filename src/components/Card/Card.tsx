@@ -16,7 +16,6 @@ export const Card = ({ children, style }: Props) => {
         boxShadow: '0px 0px 32px #040428',
         borderRadius: 32,
         padding: 32,
-        marginLeft: 16,
         marginTop: 16,
         ...style,
       }}

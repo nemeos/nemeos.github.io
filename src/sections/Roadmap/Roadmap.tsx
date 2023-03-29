@@ -10,6 +10,8 @@ export const RoadMap = () => {
         justifyContent: 'center',
         alignItems: 'center',
         marginBottom: 30,
+        paddingLeft: 16,
+        paddingRight: 16,
       }}
     >
       <Text style={{ fontWeight: 700, fontSize: 40 }}>Our Road map</Text>
