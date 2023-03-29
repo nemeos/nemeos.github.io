@@ -24,7 +24,7 @@ export const GradientNoFilledCard = ({ children, style, contentWhenHovered }: Pr
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 420,
+        maxWidth: 420,
         height: 420,
         marginLeft: 10,
         marginRight: 10,
