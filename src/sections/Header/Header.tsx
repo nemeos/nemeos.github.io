@@ -9,8 +9,7 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logo_container}>
-        <Image src="/logo.svg" alt="Nemeos Logo" width={56} height={56} style={{ marginRight: 16 }} priority />
-        <Image src="/nemeos.svg" alt="Nemeos" width={170} height={24} priority />
+        <Image src="/nemeos.svg" alt="Nemeos" width={190} height={40} priority />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
         <Link href="/" passHref>

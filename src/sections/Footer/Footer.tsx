@@ -15,7 +15,6 @@ export const Footer = () => {
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Image src="/logo.svg" alt="Nemeos Logo" width={56} height={56} style={{ marginRight: 16 }} priority />
         <Image src="/nemeos.svg" alt="Nemeos" width={170} height={24} priority />
       </div>
       <div style={{ display: 'flex', width: '100%', justifyContent: 'center', marginTop: 50, marginBottom: 50 }}>
