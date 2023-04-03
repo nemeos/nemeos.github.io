@@ -7,7 +7,7 @@ export const KeyPillars = () => {
     <div className={style.container}>
       <Text style={{ fontSize: 40, fontWeight: 700 }}>Key pillars</Text>
       <div style={{ maxWidth: 900, marginTop: 40, paddingRight: 40 }}>
-        <Text>
+        <Text style={{ fontSize: 16 }}>
           Our objective is to allow anyone to operate, build or integrate real-life financial services for web3
           ecosystem. For example, a user can use our solution to buy a NFT with credit.
         </Text>
