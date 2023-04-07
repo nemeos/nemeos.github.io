@@ -9,7 +9,7 @@ export const KeyPillars = () => {
       <div style={{ maxWidth: 900, marginTop: 40, paddingRight: 40 }}>
         <Text style={{ fontSize: 20 }}>
           We aim to build a fully open and uncensored credit solution for web3 assets such as NFTs.
-          But in contrast to existing DeFi protocols, we make it simple and accessible to all. 
+          But in contrast to existing NFT lending protocols, we make it simple and accessible to all. 
           Just get a loan and buy your favorite NFT.
         </Text>
       </div>
