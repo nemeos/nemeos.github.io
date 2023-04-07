@@ -17,11 +17,11 @@ export const Hero = () => {
       >
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 500 }}>
           <Text className={styles.hero_main_text}>Building new web3 economies</Text>
-          <Text style={{ fontSize: 24, color: '#fff', marginBottom: 80 }}>
+          <Text style={{ fontSize: 30, color: '#fff', marginBottom: 80 }}>
             We contribute to the development of new inclusive digital economies by building the leading on-chain credit
-            infrastructure for web3 assets.
+            solution for web3 assets.
           </Text>
-          <Link href="mailto:francois@nemeos.finance" passHref>
+          <Link href="mailto:contact@nemeos.finance" passHref>
             <Button width={230}>Get in touch</Button>
           </Link>
         </div>
