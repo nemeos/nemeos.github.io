@@ -15,9 +15,9 @@ export const Hero = () => {
           zIndex: 2,
         }}
       >
-        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 500 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 600 }}>
           <Text className={styles.hero_main_text}>Building new web3 economies</Text>
-          <Text style={{ fontSize: 30, color: '#fff', marginBottom: 80 }}>
+          <Text style={{ fontSize: 28, color: '#fff', marginBottom: 80 }}>
             We contribute to the development of new inclusive digital economies by building the leading on-chain credit
             solution for web3 assets.
           </Text>
