@@ -12,7 +12,6 @@ export const KeyPillars = () => {
           We aim to build a fully open and uncensored credit solution for individuals with real-life use-cases. 
           
           Get a loan and buy your favorite NFTs.
-          
         </Text>
       </div>
       <div className={style.listContainer}>
