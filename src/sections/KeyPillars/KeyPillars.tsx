@@ -8,8 +8,7 @@ export const KeyPillars = () => {
       <Text style={{ fontSize: 40, fontWeight: 700 }}>Our values</Text>
       <div style={{ maxWidth: 900, marginTop: 40, paddingRight: 40 }}>
         <Text style={{ fontSize: 20 }}>
-          Existing DeFi protocols are complex and have limited usability.
-          We aim to build a fully open and uncensored credit solution for individuals with real-life use-cases. 
+          Existing DeFi protocols are complex and have limited usability. We aim to build a fully open and uncensored credit solution for individuals with real-life use-cases. 
           Get a loan and buy your favorite NFTs.
         </Text>
       </div>
