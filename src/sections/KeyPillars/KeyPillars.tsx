@@ -8,9 +8,9 @@ export const KeyPillars = () => {
       <Text style={{ fontSize: 40, fontWeight: 700 }}>Our values</Text>
       <div style={{ maxWidth: 900, marginTop: 40, paddingRight: 40 }}>
         <Text style={{ fontSize: 20 }}>
-          We aim to build a fully open and uncensored credit solution for web3 assets such as NFTs.
-          But in contrast to existing NFT lending protocols, we make it simple and accessible to all. 
-          Just get a loan and buy your favorite NFT.
+          We aim to build a fully open and uncensored credit solution for web3 assets such as NFTs. But in contrast to
+          existing NFT lending protocols, we make it simple and accessible to all. Just get a loan and buy your favorite
+          NFT.
         </Text>
       </div>
       <div className={style.listContainer}>
@@ -27,7 +27,9 @@ export const KeyPillars = () => {
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 300, marginTop: 60 }}>
           <Image style={{ marginBottom: 32 }} src="/wallet-check.svg" alt="Nemeos" width={80} height={80} priority />
           <Text style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Wellness Finance</Text>
-          <Text>Enjoy your asset without paying the full price. And you won't be sued in case of non repayment.</Text>
+          <Text>
+            {"Enjoy your asset without paying the full price. And you won't be sued in case of non repayment."}
+          </Text>
         </div>
       </div>
     </div>
