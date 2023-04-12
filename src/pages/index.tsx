@@ -8,6 +8,7 @@ import { MiddleSection } from '../sections/MiddleSection';
 import { Infrastructure } from '../sections/Infrastructure';
 import { RoadMap } from '../sections/Roadmap';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 const poppins = Poppins({
   weight: '400',
@@ -15,6 +16,25 @@ const poppins = Poppins({
 });
 
 export default function Home() {
+  useEffect(() => {
+    const handleHashChange = () => {
+      const { hash } = window.location;
+      if (hash === '#products') {
+        const target = document.getElementById('products');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    handleHashChange();
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
   return (
     <>
       <Head>

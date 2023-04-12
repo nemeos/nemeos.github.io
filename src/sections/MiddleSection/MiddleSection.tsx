@@ -16,6 +16,7 @@ export const MiddleSection = () => {
         paddingTop: 50,
         paddingBottom: 50,
       }}
+      id="products"
     >
       <div className={style.catchyTitle}>
         <Text style={{ lineHeight: 1.1, fontWeight: 700, fontSize: 104, color: 'rgba(0, 240, 255, 1)' }}>

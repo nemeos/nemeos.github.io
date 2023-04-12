@@ -12,7 +12,7 @@ export const Header = () => {
         <Image src="/nemeos.svg" alt="Nemeos" width={190} height={40} priority />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-        <Link href="/" passHref>
+        <Link href="/#products" passHref>
           <Text className={styles.header_element_text}>Products</Text>
         </Link>
         <Link href="/" passHref>
