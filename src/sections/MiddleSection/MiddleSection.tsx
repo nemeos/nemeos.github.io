@@ -25,10 +25,10 @@ export const MiddleSection = () => {
       </div>
       <div className={style.first_product_container}>
         <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 16 }}>Our first product</Text>
-        <Text style={{ marginBottom: 16 }}>
+        <Text style={{ marginBottom: 16, fontSize: 20 }}>
           Our solution enables users to purchase an NFT by dividing the payment into multiple installments.
         </Text>
-        <Text>
+        <Text style={{ fontSize: 20 }}>
           The financing is secured by the NFT itself, but the user retains the ability to use the asset as long as the loan is repaid.
         </Text>
       </div>
