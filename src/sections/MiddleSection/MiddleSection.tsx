@@ -26,11 +26,10 @@ export const MiddleSection = () => {
       <div className={style.first_product_container}>
         <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 16 }}>Our first product</Text>
         <Text style={{ marginBottom: 16 }}>
-          With our solution, a user will be able to buy an NFT by paying it in 3x.
+          Our solution enables users to purchase an NFT by dividing the payment into multiple installments.
         </Text>
         <Text>
-          The financing is guaranteed by the acquired NFT, but the user can still use the asset as long as he pays back
-          the credit.
+          The financing is secured by the NFT itself, but the user retains the ability to use the asset as long as the loan is repaid.
         </Text>
       </div>
       <div
@@ -45,7 +44,7 @@ export const MiddleSection = () => {
         }}
       >
         <GradientNoFilledCard style={{ padding: 30, width: 300, height: 200 }}>
-          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Users don't have to pay full price upfront`}</Text>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Try NFTs without paying the full price upfront`}</Text>
         </GradientNoFilledCard>
         <GradientNoFilledCard style={{ padding: 30, width: 300, height: 200 }}>
           <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Easy integration and smooth customer journey`}</Text>
