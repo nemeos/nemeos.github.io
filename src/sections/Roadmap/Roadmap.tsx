@@ -46,19 +46,20 @@ export const RoadMap = () => {
           <Text style={{ fontWeight: 700, fontSize: 16, color: '#000066', marginBottom: 8 }}>Q2 2023</Text>
           <Text style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>MVP tests</Text>
           <Text style={{ marginBottom: 8 }}>Security audits</Text>
-          <Text style={{ marginBottom: 8 }}>First partnerships and first live usage of the solution</Text>
+          <Text style={{ marginBottom: 8 }}>Testnet usage of the solution</Text>
         </Card>
         <Card>
           <Text style={{ fontWeight: 700, fontSize: 16, color: '#000066', marginBottom: 8 }}>Q3 2023</Text>
           <Text style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>Beta version</Text>
-          <Text style={{ marginBottom: 8 }}>Lending pool development</Text>
-          <Text style={{ marginBottom: 8 }}>Partnerships with main NFT projects</Text>
+          <Text style={{ marginBottom: 8 }}>Partnerships with NFT projects</Text>
+          <Text style={{ marginBottom: 8 }}>First live deployment of the solution</Text>
         </Card>
         <Card>
           <Text style={{ fontWeight: 700, fontSize: 16, color: '#000066', marginBottom: 8 }}>Q4 2023</Text>
           <Text style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>Growth</Text>
           <Text style={{ marginBottom: 8 }}>Acceleration of commercial development</Text>
-          <Text style={{ marginBottom: 8 }}>Addition of new functionalities BA / Pre-seed funding</Text>
+          <Text style={{ marginBottom: 8 }}>Lending pool development</Text>
+          <Text style={{ marginBottom: 8 }}>BA / Seed funding</Text>
         </Card>
       </div>
     </div>
