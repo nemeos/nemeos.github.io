@@ -77,7 +77,7 @@ export const MiddleSection = () => {
         <Text style={{ fontSize: 24, fontWeight: 700, maxWidth: 550, alignSelf: 'center', marginBottom: 34 }}>
           You’re a web3 project, and you’re interested in integrating our solution ?
         </Text>
-        <Link href="mailto:francois@nemeos.finance" passHref>
+        <Link href="mailto:contact@nemeos.finance" passHref>
           <Button width={230}>Get in touch</Button>
         </Link>
       </div>
