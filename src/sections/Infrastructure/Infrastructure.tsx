@@ -55,7 +55,7 @@ export const Infrastructure = () => {
               alignItems: 'center',
             }}
           >
-            <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Collateral management</Text>
+            <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Counterparty risk management</Text>
           </div>
         </GradientNoFilledCard>
         <GradientNoFilledCard
@@ -66,7 +66,7 @@ export const Infrastructure = () => {
             />
           }
         >
-          <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Credit products fabric</Text>
+          <Text style={{ fontWeight: 700, fontSize: 32, textAlign: 'center' }}>Collateral Management</Text>
         </GradientNoFilledCard>
         <GradientNoFilledCard
           contentWhenHovered={
