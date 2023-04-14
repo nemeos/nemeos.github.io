@@ -41,7 +41,7 @@ export const Infrastructure = () => {
         <GradientNoFilledCard
           contentWhenHovered={
             <Content
-              title="Collateral management"
+              title="Counterparty risk management"
               content="User is scored based on previous loans done with Nemeos. After full repayment of each credit, users are rewarded with a SBT. The score impacts future financing conditions , in order to reward the best behaviors."
             />
           }
@@ -61,7 +61,7 @@ export const Infrastructure = () => {
         <GradientNoFilledCard
           contentWhenHovered={
             <Content
-              title="Credit products fabric"
+              title="Collateral Management"
               content="The bought NFT is the loan collateral. In case of non-repayment, the asset is foreclosed and sold."
             />
           }
