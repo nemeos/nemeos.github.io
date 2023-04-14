@@ -24,7 +24,7 @@ export const MiddleSection = () => {
         </Text>
       </div>
       <div className={style.first_product_container}>
-        <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 16 }}>Our first product</Text>
+        <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 40 }}>Our first product</Text>
         <Text style={{ marginBottom: 16, fontSize: 20 }}>
           Our solution enables users to purchase an NFT by dividing the payment into multiple installments.
         </Text>
