@@ -9,6 +9,7 @@ import { Infrastructure } from '../sections/Infrastructure';
 import { RoadMap } from '../sections/Roadmap';
 import Image from 'next/image';
 import { useEffect } from 'react';
+import { BuildingsImage } from '@/components/Buildings';
 
 const poppins = Poppins({
   weight: '400',
@@ -44,19 +45,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${poppins.className}`}>
-        <Image
-          style={{
-            position: 'absolute',
-            left: 0,
-            top: 130,
-            zIndex: -1,
-            width: '100%',
-          }}
-          src="/buildings.svg"
-          alt="Nemeos"
-          width={1512}
-          height={1288}
-        />
+        <BuildingsImage />
         <Image
           style={{ position: 'absolute', left: 0, top: 1320, zIndex: -2, width: '100%' }}
           src="/squares_background.svg"
