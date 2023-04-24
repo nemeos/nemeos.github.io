@@ -21,8 +21,8 @@ export const Hero = () => {
             We contribute to the development of new inclusive digital economies by building the leading on-chain credit
             solution for web3 assets.
           </Text>
-          <Link href="mailto:contact@nemeos.finance" passHref>
-            <Button width={230}>Get in touch</Button>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScsf2ehPHgiDi9QFodgZ-6eMHVv2lCMK5-LN0np_beUieN8Rw/viewform?usp=pp_url" passHref>
+            <Button width={230}>Get early access</Button>
           </Link>
         </div>
       </div>
