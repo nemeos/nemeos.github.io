@@ -52,6 +52,16 @@ export const Footer = () => {
             priority
           />
         </Link>
+        <Link href="https://twitter.com/Nemeos_Finance" passHref>
+          <Image
+            style={{ marginRight: 10, marginLeft: 10 }}
+            src="/twitter.svg"
+            alt="Nemeos"
+            width={30}
+            height={30}
+            priority
+          />
+        </Link>
       </div>
       <Text style={{ display: 'flex', width: '100%', justifyContent: 'center' }}>©️ Copyright 2023 Nemeos</Text>
     </div>
