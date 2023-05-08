@@ -21,7 +21,7 @@ export const BuildingsImage = () => {
       style={{
         position: 'absolute',
         left: 0,
-        top: topOffset,
+        top: topOffset + 60,
         zIndex: -1,
         width: '100%',
       }}
