@@ -75,10 +75,10 @@ export const MiddleSection = () => {
         }}
       >
         <Text style={{ fontSize: 24, fontWeight: 700, maxWidth: 550, alignSelf: 'center', marginBottom: 34 }}>
-          You’re intestered in using our solution ? Or you would like to integrate our technology to your web3 project?
+          You’re intestered in integrating our solution to your web3 project?
         </Text>
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScsf2ehPHgiDi9QFodgZ-6eMHVv2lCMK5-LN0np_beUieN8Rw/viewform" passHref>
-          <Button width={230}>Get early access</Button>
+        <Link href="mailto:contact@nemeos.finance" passHref>
+          <Button width={230}>Contact us</Button>
         </Link>
       </div>
     </div>
