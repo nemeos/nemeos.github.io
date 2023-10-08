@@ -20,16 +20,18 @@ export const MiddleSection = () => {
     >
       <div className={style.catchyTitle}>
         <Text style={{ lineHeight: 1.1, fontWeight: 700, fontSize: 104, color: 'rgba(0, 240, 255, 1)' }}>
-          Buy now, pay later for NFTs
+          Payment methods for NFT adoption
         </Text>
       </div>
       <div className={style.first_product_container}>
-        <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 40 }}>Our first product</Text>
+        <Text style={{ fontWeight: 700, fontSize: 40, marginBottom: 40 }}>Our first products</Text>
         <Text style={{ marginBottom: 16, fontSize: 20 }}>
-          Our solution enables users to purchase an NFT by dividing the payment into multiple installments.
+          Our solution allows web3 projects to offer flexible payment options, in order to make the user journey as easy
+          as possible. Give your customers the ability to use the asset, and let them decide when and how to pay.
         </Text>
         <Text style={{ fontSize: 20 }}>
-          The financing is secured by the NFT itself, but the user retains the ability to use the asset as long as the loan is repaid.
+          The seller gets the full payment upfront. The protocol takes the financing risk secured by the acquired asset
+          itself.
         </Text>
       </div>
       <div
@@ -44,13 +46,13 @@ export const MiddleSection = () => {
         }}
       >
         <GradientNoFilledCard style={{ padding: 30, width: 300, height: 200 }}>
-          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Try NFTs without paying the full price upfront`}</Text>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>Buy now, pay later</Text>
         </GradientNoFilledCard>
         <GradientNoFilledCard style={{ padding: 30, width: 300, height: 200 }}>
-          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Easy integration and smooth customer journey`}</Text>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>Try before you buy</Text>
         </GradientNoFilledCard>
         <GradientNoFilledCard style={{ padding: 30, width: 300, height: 200 }}>
-          <Text style={{ fontWeight: 700, fontSize: 24 }}>{`Boost your project adoption and customer retention`}</Text>
+          <Text style={{ fontWeight: 700, fontSize: 24 }}>More to come…</Text>
         </GradientNoFilledCard>
       </div>
       <div

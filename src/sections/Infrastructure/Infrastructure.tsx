@@ -20,9 +20,7 @@ export const Infrastructure = () => {
           contentWhenHovered={
             <Content
               title="Market value assessment"
-              content="We focus on NFTs with tangible utilities (gaming assets, tokenized assets, etc.), not on hyped apes. The loan
-          LTV is estimated based on internal valuation models. As Nemeos will evolve into a DAO, a part of scoring will be
-          delegated to community expertise."
+              content="We focus on NFTs with tangible utilities (gaming assets, tokenized assets, etc.), not on hyped apes. The asset value is computed based on our internal oracle."
             />
           }
         >
@@ -71,8 +69,8 @@ export const Infrastructure = () => {
         <GradientNoFilledCard
           contentWhenHovered={
             <Content
-              title="LP yield  generation"
-              content="Loans are at fixed rate, with fixed tenor. LP yield only depends on the usage rate of provided liquidity. Undrawn liquidity will be invested in other DeFi protocols to optimize yield generation."
+              title="LP yield generation"
+              content="Loans are at fixed rate, with fixed tenor. LPs specify the yield they expect, which determines the global rate of the loans. Undrawn liquidity will be invested in other DeFi protocols to optimize yield generation."
             />
           }
         >
