@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logo_container}>
-        <Image src="/nemeos.png" alt="Nemeos" width={190} height={40} priority />
+        <Image src="/nemeos.png" alt="Nemeos" width={190} priority />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
         <Link href="/#products" passHref>
