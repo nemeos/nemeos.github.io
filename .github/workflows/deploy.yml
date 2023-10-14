@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy app
         env:
-          GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          GH_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git remote set-url origin https://x-access-token:${GH_ACCESS_TOKEN}@github.com/nemeos/nemeos.github.io.git
           yarn deploy
