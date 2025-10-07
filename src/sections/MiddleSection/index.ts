@@ -1,1 +1,0 @@
-export { MiddleSection } from './MiddleSection';

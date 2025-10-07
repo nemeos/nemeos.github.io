@@ -1,1 +1,0 @@
-export { KeyPillars } from './KeyPillars';
